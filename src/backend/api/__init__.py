@@ -1,11 +1,11 @@
 from fastapi import APIRouter
 
-from .home import router as home_router
-from .operations import router as operations_router
-from .auth import router as auth_router
+from . import home
+from . import operations
+from . import auth
 
 
 router = APIRouter()
-router.include_router(home_router)
-router.include_router(operations_router)
-router.include_router(auth_router)
+router.include_router(home.router)
+router.include_router(auth.router)
+router.include_router(operations.router)

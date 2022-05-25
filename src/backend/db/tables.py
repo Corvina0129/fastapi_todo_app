@@ -1,7 +1,7 @@
 import sqlalchemy as sa
 
 from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy.orm import relationship
+
 
 Base = declarative_base()
 
@@ -24,5 +24,3 @@ class Todo(Base):
     todo_name = sa.Column(sa.String)
     description = sa.Column(sa.String, nullable=True)
     is_completed = sa.Column(sa.Boolean, default=False)
-
-    # user = relationship("User", backref="todos")

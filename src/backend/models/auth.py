@@ -18,4 +18,5 @@ class User(BaseUser):
 
 
 class Token(BaseModel):
-    pass
+    access_token: str
+    token_type: str = "bearer"

@@ -5,6 +5,6 @@ There are some endpoints:
 - authentication for registration and authorization users with using jwt
 - crud operations with todo
 
-![qqq.png](https://i.postimg.cc/SKQ6T037/qqq.png)](https://postimg.cc/xX7N8Z0c)
+![qqq.png](https://i.postimg.cc/SKQ6T037/qqq.png)
 
 Plans to complete the tests and homepage

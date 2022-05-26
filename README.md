@@ -5,6 +5,6 @@ There are some endpoints:
 - authentication for registration and authorization users with using jwt
 - crud operations with todo
 
-![Image alt](https://github.com/Corvina0129/technical/blob/11eb6162049a26423967c5ac9622916ce4922276/qqq.png)
+![qqq.png](https://i.postimg.cc/SKQ6T037/qqq.png)](https://postimg.cc/xX7N8Z0c)
 
 Plans to complete the tests and homepage
